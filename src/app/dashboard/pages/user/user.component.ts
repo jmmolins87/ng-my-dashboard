@@ -10,7 +10,6 @@ import { toSignal } from '@angular/core/rxjs-interop';
 import { map, switchMap } from 'rxjs';
 
 import { TitleComponent } from '../../shared/title/title.component';
-import { User } from '../../interfaces/req-response';
 import { UsersService } from '../../services/users.service';
 
 @Component({
@@ -21,8 +20,8 @@ import { UsersService } from '../../services/users.service';
 })
 export default class UserComponent {
 
-  private route = inject(ActivatedRoute);
-  private usersService = inject(UsersService);
+  private route = inject( ActivatedRoute );
+  private usersService = inject( UsersService );
 
   public title: string = 'User';
   public user = toSignal(
