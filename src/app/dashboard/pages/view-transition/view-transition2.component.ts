@@ -17,7 +17,7 @@ import { TitleComponent } from '../../shared/title/title.component';
         height="300"
         style="view-transition-name: hero1" />
       <div 
-        class="bg-blue-500 w-56 h-56" 
+        class="fixed bottom-16 right-10 bg-blue-500 w-56 h-56" 
         style="view-transition-name: hero2">
       </div>
     </section>
